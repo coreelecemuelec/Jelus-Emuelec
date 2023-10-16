@@ -8,7 +8,9 @@ PKG_SECTION="emulation" # Do not change to virtual or makeinstall_target will no
 PKG_LONGDESC="Emulation metapackage."
 PKG_TOOLCHAIN="manual"
 
-PKG_EMUS="flycast-sa gzdoom-sa hatarisa hypseus-singe hypseus-singe moonlight openbor pico-8 ppsspp-sa
+# REMOVIDO : flycast-sa
+
+PKG_EMUS=" gzdoom-sa hatarisa hypseus-singe hypseus-singe moonlight openbor pico-8 ppsspp-sa
           vice-sa"
 
 PKG_RETROARCH="core-info libretro-database retroarch retroarch-assets retroarch-joypads retroarch-overlays     \
